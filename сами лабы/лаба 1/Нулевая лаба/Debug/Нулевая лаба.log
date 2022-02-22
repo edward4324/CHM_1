@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\Нулевая лаба\Нулевая лаба\Source.cpp : fatal error C1041: cannot open program database 'D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\Нулевая лаба\Нулевая лаба\Debug\vc142.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS
+C:\visual studio\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(636,5): warning MSB8015: All source files are not up-to-date:  forcing a rebuild of all source files due to the contents of 'D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\Нулевая лаба\Нулевая лаба\Debug\Нулевая лаба.tlog\CL.command.1.tlog' being invalid.

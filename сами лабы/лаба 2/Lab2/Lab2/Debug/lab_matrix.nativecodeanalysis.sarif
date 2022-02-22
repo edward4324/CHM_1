@@ -1,0 +1,889 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "Чтение недопустимых данных из \"matrix_\":  доступный для чтения объем равен \"16\" байт, однако считать можно только \"32\" байт."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                },
+                "region": {
+                  "startLine": 31,
+                  "startColumn": 4,
+                  "endLine": 31,
+                  "endColumn": 22
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0lab_matrix@@QAE@II@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 30
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"i<n\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" является выходными данными из \"std::vector<std::vector<double,std::allocator<double> >,std::allocator<std::vector<double,std::allocator<double> > > >::resize\" (объявлено в c:\\visual studio\\vc\\tools\\msvc\\14.29.30133\\include\\vector:1288)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция чтения из \"matrix_[1]\" (доступный для чтения диапазон: от 0 до 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6386",
+          "message": {
+            "text": "Переполнение буфера при записи в \"matrix2[i]\":  доступный для записи объем равен \"n_*8\" байт, однако записать можно только \"16\" байт."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                },
+                "region": {
+                  "startLine": 130,
+                  "startColumn": 4,
+                  "endLine": 130,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?fill_random_bad@lab_matrix@@QBEXNNH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 110,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 111,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 120,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 127,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 126,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 125,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 14
+                          }
+                        },
+                        "message": {
+                          "text": "\"i\" равно NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 128,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"i<n_\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Войти в этот цикл (предполагается \"j<=n_\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "\"j\" может быть равно 1"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 129,
+                            "startColumn": 24
+                          }
+                        },
+                        "message": {
+                          "text": "Продолжить этот цикл (предполагается \"j<=n_\")"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+                          },
+                          "region": {
+                            "startLine": 130,
+                            "startColumn": 18
+                          }
+                        },
+                        "message": {
+                          "text": "Недопустимая операция записи в \"matrix2[i][1]\" (доступный для записи диапазон: от 0 до 0)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30136.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0025D1C0 -il C:\\Users\\LETUEU~1\\AppData\\Local\\Temp\\_CL_6bb8436cast -typedil -f lab_matrix.cpp -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930136 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MDd -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -FoDebug\\lab_matrix.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory D:\\доки с рабочего стола\\важные документы\\карантин\\5 семестр\\числаки\\Лабы\\сами лабы\\лаба 2\\Lab2\\Lab2 -analyze:rulesetdirectory ;C:\\visual studio\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\visual studio\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\visual studio\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\visual studio\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\visual studio\\VC\\Auxiliary\\VS\\include -I C:\\visual studio\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "3f7f79897ae6f7ac9083f890540627da"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///D:/доки с рабочего стола/важные документы/карантин/5 семестр/числаки/Лабы/сами лабы/лаба 2/Lab2/Lab2/lab_matrix.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "a4d183411e202fbac27d9c0316241a14"
+          }
+        }
+      ]
+    }
+  ]
+}

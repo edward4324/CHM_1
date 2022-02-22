@@ -1,0 +1,4 @@
+﻿  main.cpp
+D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\сами лабы\LU\LU\LU\main.cpp(75,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\сами лабы\LU\LU\LU\main.cpp(109,11): warning C4551: function call missing argument list
+  LU.vcxproj -> D:\доки с рабочего стола\важные документы\карантин\5 семестр\числаки\Лабы\сами лабы\LU\LU\Debug\LU.exe
